@@ -47,9 +47,22 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 80%;
     opacity: 0.9;
 }
 
 button:hover {
-    opacity:1;
+    opacity: 1;
+}
+
+input[type=text], input[type=password] {
+	border: 1px solid;
+    width: 75%;
+    padding: 7px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    text-align: center;
+ }
+
+
+
